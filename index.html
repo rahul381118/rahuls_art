@@ -58,12 +58,13 @@
     <h2>Commission Your Portrait</h2>
     <p>Fill out the form below and I’ll get back to you within 24 hours!</p>
 
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" rows="5" placeholder="Describe your idea or upload your reference image..." required></textarea>
-      <button type="submit" class="btn">Send Request</button>
-    </form>
+<form action="https://formspree.io/f/xeopneqy" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" rows="5" placeholder="Describe your portrait idea..." required></textarea>
+  <button type="submit" class="btn">Send Request</button>
+</form>
+
   </section>
 
   <!-- Footer -->
